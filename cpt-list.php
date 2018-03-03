@@ -3,7 +3,7 @@
   Plugin Name: CPT List
   Plugin URI: https://github.com/yoshida-san/cpt-list
   Description: Will add the custom post type list view shortcode and widget.
-  Version: 0.1.0
+  Version: 0.1.1
   Author: Satoshi Yoshida
   Author URI: https://github.com/yoshida-san/cpt-list
   License: GPLv2 or later
