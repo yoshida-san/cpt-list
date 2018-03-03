@@ -1,0 +1,209 @@
+@import "../colors/colors.less";
+
+.image-buttom(@color) {
+	display: inline-block;
+	padding: 6px 10px;
+	background-color: @color;
+	color: @cpt-list-white;
+	cursor: pointer;
+}
+
+.cpt-list-admin-content-wrapper {
+	/* Common */
+	.info-message {
+		margin: 5px 0 0 0;
+		padding: 0;
+	}
+	.attention-message {
+		margin: 0;
+		padding: 0;
+		color: @red;
+	}
+	.option- {
+		&black {
+			background-color: @cpt-list-black;
+			color: @cpt-list-white;
+		}
+		&white {
+			background-color: @cpt-list-white;
+			color: @cpt-list-black;
+		}
+		&red {
+			background-color: @cpt-list-red;
+			color: @cpt-list-white;
+		}
+		&pink {
+			background-color: @cpt-list-pink;
+			color: @cpt-list-white;
+		}
+		&purple {
+			background-color: @cpt-list-purple;
+			color: @cpt-list-white;
+		}
+		&deeppurple {
+			background-color: @cpt-list-deeppurple;
+			color: @cpt-list-white;
+		}
+		&indigo {
+			background-color: @cpt-list-indigo;
+			color: @cpt-list-white;
+		}
+		&blue {
+			background-color: @cpt-list-blue;
+			color: @cpt-list-white;
+		}
+		&lightblue {
+			background-color: @cpt-list-lightblue;
+			color: @cpt-list-white;
+		}
+		&cyan {
+			background-color: @cpt-list-cyan;
+			color: @cpt-list-white;
+		}
+		&teal {
+			background-color: @cpt-list-teal;
+			color: @cpt-list-white;
+		}
+		&green {
+			background-color: @cpt-list-green;
+			color: @cpt-list-white;
+		}
+		&lightgreen {
+			background-color: @cpt-list-lightgreen;
+			color: @cpt-list-white;
+		}
+		&lime {
+			background-color: @cpt-list-lime;
+			color: @cpt-list-white;
+		}
+		&yellow {
+			background-color: @cpt-list-yellow;
+			color: @cpt-list-white;
+		}
+		&amber {
+			background-color: @cpt-list-amber;
+			color: @cpt-list-white;
+		}
+		&orange {
+			background-color: @cpt-list-orange;
+			color: @cpt-list-white;
+		}
+		&deeporange {
+			background-color: @cpt-list-deeporange;
+			color: @cpt-list-white;
+		}
+		&brown {
+			background-color: @cpt-list-brown;
+			color: @cpt-list-white;
+		}
+		&grey {
+			background-color: @cpt-list-grey;
+			color: @cpt-list-white;
+		}
+		&bluegrey {
+			background-color: @cpt-list-bluegrey;
+			color: @cpt-list-white;
+		}
+	}
+	/* Basic settings */
+	.cpt-list-admin-settings-content-wrapper {
+		.cpt-list-settings-title {
+			margin: 20px 20px 0 0;
+			padding: 15px 10px;
+			background-color: @blue;
+			color: @cpt-list-white;
+		}
+		.admin-content {
+			.cpt-list-item-settings {
+				padding-left: 15px;
+				.cpt-list-item-title {
+					display: inline-block;
+					margin: 20px 0 0 0;
+					padding: 7px 20px 7px 5px;
+					border-left: 4px solid @blue;
+					border-bottom: 1px solid @blue;
+					cursor: pointer;
+				}
+				.cpt-list-item-setting-wrapper {
+					padding-left: 15px;
+					.cpt-list-setting-title {
+						margin: 0;
+						padding: 10px 0 2px 0;
+					}
+					.image-selector {
+						.cpt-list-image-preview {
+							.cpt-list-selected-image {
+								width: 300px;
+								height: auto;
+							}
+						}
+						.image-url {
+							width: 300px;
+						}
+						.cpt-list-select-image {
+							.image-buttom(@blue);
+						}
+						.cpt-list-clear-image {
+							.image-buttom(@red);
+						}
+					}
+				}
+			}
+			.submit {
+				margin-top: 15px;
+				padding: 0;
+			}
+		}
+	}
+	/* Widget */
+	.widget-setting-content {
+		margin-bottom: 0;
+		label {
+			margin-right: 10px;
+		}
+	}
+	.override-settings {
+		margin-bottom: 50px;
+		.settings-content-opener {
+			margin-top: 50px;
+			margin-bottom: 0;
+			padding: 10px;
+			background-color: @blue;
+			color: @cpt-list-white;
+			cursor: pointer;
+		}
+		.settings-content {
+			padding-left: 10px;
+			.cpt-list-item-title {
+				display: inline-block;
+				margin: 10px 0 0 0;
+				padding: 7px 20px 7px 5px;
+				border-left: 4px solid @blue;
+				border-bottom: 1px solid @blue;
+				cursor: pointer;
+			}
+			.cpt-list-item-setting-wrapper {
+				padding-left: 10px;
+			}
+			.image-selector {
+				.cpt-list-image-preview {
+					.cpt-list-selected-image {
+						width: 300px;
+						height: auto;
+					}
+				}
+				.image-url {
+					width: 300px;
+				}
+				.cpt-list-select-image {
+					.image-buttom(@blue);
+				}
+				.cpt-list-clear-image {
+					.image-buttom(@red);
+				}
+			}
+		}
+	}
+}
+
+

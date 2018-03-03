@@ -1,0 +1,201 @@
+/* material ui colors */
+.cpt-list-admin-content-wrapper {
+  /* Common */
+  /* Basic settings */
+  /* Widget */
+}
+.cpt-list-admin-content-wrapper .info-message {
+  margin: 5px 0 0 0;
+  padding: 0;
+}
+.cpt-list-admin-content-wrapper .attention-message {
+  margin: 0;
+  padding: 0;
+  color: #f44336;
+}
+.cpt-list-admin-content-wrapper .option-black {
+  background-color: #000000;
+  color: #ffffff;
+}
+.cpt-list-admin-content-wrapper .option-white {
+  background-color: #ffffff;
+  color: #000000;
+}
+.cpt-list-admin-content-wrapper .option-red {
+  background-color: #d50000;
+  color: #ffffff;
+}
+.cpt-list-admin-content-wrapper .option-pink {
+  background-color: #e91e63;
+  color: #ffffff;
+}
+.cpt-list-admin-content-wrapper .option-purple {
+  background-color: #9c27b0;
+  color: #ffffff;
+}
+.cpt-list-admin-content-wrapper .option-deeppurple {
+  background-color: #673ab7;
+  color: #ffffff;
+}
+.cpt-list-admin-content-wrapper .option-indigo {
+  background-color: #3f51b5;
+  color: #ffffff;
+}
+.cpt-list-admin-content-wrapper .option-blue {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.cpt-list-admin-content-wrapper .option-lightblue {
+  background-color: #03a9f4;
+  color: #ffffff;
+}
+.cpt-list-admin-content-wrapper .option-cyan {
+  background-color: #00bcd4;
+  color: #ffffff;
+}
+.cpt-list-admin-content-wrapper .option-teal {
+  background-color: #009688;
+  color: #ffffff;
+}
+.cpt-list-admin-content-wrapper .option-green {
+  background-color: #00c853;
+  color: #ffffff;
+}
+.cpt-list-admin-content-wrapper .option-lightgreen {
+  background-color: #8bc34a;
+  color: #ffffff;
+}
+.cpt-list-admin-content-wrapper .option-lime {
+  background-color: #cddc39;
+  color: #ffffff;
+}
+.cpt-list-admin-content-wrapper .option-yellow {
+  background-color: #aeea00;
+  color: #ffffff;
+}
+.cpt-list-admin-content-wrapper .option-amber {
+  background-color: #ffc107;
+  color: #ffffff;
+}
+.cpt-list-admin-content-wrapper .option-orange {
+  background-color: #ff9800;
+  color: #ffffff;
+}
+.cpt-list-admin-content-wrapper .option-deeporange {
+  background-color: #ff5722;
+  color: #ffffff;
+}
+.cpt-list-admin-content-wrapper .option-brown {
+  background-color: #795548;
+  color: #ffffff;
+}
+.cpt-list-admin-content-wrapper .option-grey {
+  background-color: #9e9e9e;
+  color: #ffffff;
+}
+.cpt-list-admin-content-wrapper .option-bluegrey {
+  background-color: #607d8b;
+  color: #ffffff;
+}
+.cpt-list-admin-content-wrapper .cpt-list-admin-settings-content-wrapper .cpt-list-settings-title {
+  margin: 20px 20px 0 0;
+  padding: 15px 10px;
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.cpt-list-admin-content-wrapper .cpt-list-admin-settings-content-wrapper .admin-content .cpt-list-item-settings {
+  padding-left: 15px;
+}
+.cpt-list-admin-content-wrapper .cpt-list-admin-settings-content-wrapper .admin-content .cpt-list-item-settings .cpt-list-item-title {
+  display: inline-block;
+  margin: 20px 0 0 0;
+  padding: 7px 20px 7px 5px;
+  border-left: 4px solid #2196f3;
+  border-bottom: 1px solid #2196f3;
+  cursor: pointer;
+}
+.cpt-list-admin-content-wrapper .cpt-list-admin-settings-content-wrapper .admin-content .cpt-list-item-settings .cpt-list-item-setting-wrapper {
+  padding-left: 15px;
+}
+.cpt-list-admin-content-wrapper .cpt-list-admin-settings-content-wrapper .admin-content .cpt-list-item-settings .cpt-list-item-setting-wrapper .cpt-list-setting-title {
+  margin: 0;
+  padding: 10px 0 2px 0;
+}
+.cpt-list-admin-content-wrapper .cpt-list-admin-settings-content-wrapper .admin-content .cpt-list-item-settings .cpt-list-item-setting-wrapper .image-selector .cpt-list-image-preview .cpt-list-selected-image {
+  width: 300px;
+  height: auto;
+}
+.cpt-list-admin-content-wrapper .cpt-list-admin-settings-content-wrapper .admin-content .cpt-list-item-settings .cpt-list-item-setting-wrapper .image-selector .image-url {
+  width: 300px;
+}
+.cpt-list-admin-content-wrapper .cpt-list-admin-settings-content-wrapper .admin-content .cpt-list-item-settings .cpt-list-item-setting-wrapper .image-selector .cpt-list-select-image {
+  display: inline-block;
+  padding: 6px 10px;
+  background-color: #2196f3;
+  color: #ffffff;
+  cursor: pointer;
+}
+.cpt-list-admin-content-wrapper .cpt-list-admin-settings-content-wrapper .admin-content .cpt-list-item-settings .cpt-list-item-setting-wrapper .image-selector .cpt-list-clear-image {
+  display: inline-block;
+  padding: 6px 10px;
+  background-color: #f44336;
+  color: #ffffff;
+  cursor: pointer;
+}
+.cpt-list-admin-content-wrapper .cpt-list-admin-settings-content-wrapper .admin-content .submit {
+  margin-top: 15px;
+  padding: 0;
+}
+.cpt-list-admin-content-wrapper .widget-setting-content {
+  margin-bottom: 0;
+}
+.cpt-list-admin-content-wrapper .widget-setting-content label {
+  margin-right: 10px;
+}
+.cpt-list-admin-content-wrapper .override-settings {
+  margin-bottom: 50px;
+}
+.cpt-list-admin-content-wrapper .override-settings .settings-content-opener {
+  margin-top: 50px;
+  margin-bottom: 0;
+  padding: 10px;
+  background-color: #2196f3;
+  color: #ffffff;
+  cursor: pointer;
+}
+.cpt-list-admin-content-wrapper .override-settings .settings-content {
+  padding-left: 10px;
+}
+.cpt-list-admin-content-wrapper .override-settings .settings-content .cpt-list-item-title {
+  display: inline-block;
+  margin: 10px 0 0 0;
+  padding: 7px 20px 7px 5px;
+  border-left: 4px solid #2196f3;
+  border-bottom: 1px solid #2196f3;
+  cursor: pointer;
+}
+.cpt-list-admin-content-wrapper .override-settings .settings-content .cpt-list-item-setting-wrapper {
+  padding-left: 10px;
+}
+.cpt-list-admin-content-wrapper .override-settings .settings-content .image-selector .cpt-list-image-preview .cpt-list-selected-image {
+  width: 300px;
+  height: auto;
+}
+.cpt-list-admin-content-wrapper .override-settings .settings-content .image-selector .image-url {
+  width: 300px;
+}
+.cpt-list-admin-content-wrapper .override-settings .settings-content .image-selector .cpt-list-select-image {
+  display: inline-block;
+  padding: 6px 10px;
+  background-color: #2196f3;
+  color: #ffffff;
+  cursor: pointer;
+}
+.cpt-list-admin-content-wrapper .override-settings .settings-content .image-selector .cpt-list-clear-image {
+  display: inline-block;
+  padding: 6px 10px;
+  background-color: #f44336;
+  color: #ffffff;
+  cursor: pointer;
+}
+/*# sourceMappingURL=cpt-list-admin.css.map */

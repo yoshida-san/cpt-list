@@ -1,0 +1,720 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CPT List\n"
+"POT-Creation-Date: 2015-10-17 23:53+0900\n"
+"PO-Revision-Date: 2015-10-17 23:54+0900\n"
+"Last-Translator: satoshi yoshida <yos.3104@gmail.com>\n"
+"Language-Team: satoshi yoshida <yos.3104@gmail.com>\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: cpt-list.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. Plugin Name of the plugin/theme
+#: cpt-list.php:36
+msgid "CPT List"
+msgstr "CPT List"
+
+#: cpt-list.php:44
+msgid "Settings saved."
+msgstr "設定を保存しました。"
+
+#: cpt-list.php:49
+msgid "CPT List Basic Settings"
+msgstr "CPT List基本設定"
+
+#: cpt-list.php:50
+msgid ""
+"CPT List outputs post list of custom post type. Let's immediately make "
+"common configuration."
+msgstr ""
+"CPT Listは、カスタム投稿タイプの投稿リストを出力できます。基本的な設定をして"
+"みましょう。"
+
+#: cpt-list.php:84 inc/cpt-list.php:140
+msgid "Post List Style Settings"
+msgstr "投稿リストスタイル設定"
+
+#: cpt-list.php:86
+msgid "Post list style"
+msgstr "投稿リストスタイル"
+
+#: cpt-list.php:88 inc/cpt-list.php:149
+msgid "List"
+msgstr "リスト"
+
+#: cpt-list.php:89 inc/cpt-list.php:150
+msgid "Full Width"
+msgstr "全幅"
+
+#: cpt-list.php:90 inc/cpt-list.php:151
+msgid "Full Cover"
+msgstr "全幅重ね合わせ"
+
+#: cpt-list.php:91 inc/cpt-list.php:152
+msgid "Left Cover"
+msgstr "左側重ね合わせ"
+
+#: cpt-list.php:92 inc/cpt-list.php:153
+msgid "Right Cover"
+msgstr "右側重ね合わせ"
+
+#: cpt-list.php:93 inc/cpt-list.php:154
+msgid "Grid One"
+msgstr "グリッド（１）"
+
+#: cpt-list.php:94 inc/cpt-list.php:155
+msgid "Grid Two"
+msgstr "グリッド（２）"
+
+#: cpt-list.php:95 inc/cpt-list.php:156
+msgid "Grid Three"
+msgstr "グリッド（３）"
+
+#: cpt-list.php:96 inc/cpt-list.php:157
+msgid "Grid Four"
+msgstr "グリッド（４）"
+
+#: cpt-list.php:98
+msgid "Article number of per page"
+msgstr "1 ページあたりの記事数"
+
+#: cpt-list.php:100
+msgid "Post list pagination"
+msgstr "投稿リストのページネーション"
+
+#: cpt-list.php:102 cpt-list.php:158 cpt-list.php:197 cpt-list.php:228
+#: cpt-list.php:259 cpt-list.php:290 cpt-list.php:329 cpt-list.php:395
+#: inc/cpt-list.php:176 inc/cpt-list.php:268 inc/cpt-list.php:325
+#: inc/cpt-list.php:367 inc/cpt-list.php:409 inc/cpt-list.php:451
+#: inc/cpt-list.php:507 inc/cpt-list.php:599
+msgid "None"
+msgstr "なし"
+
+#: cpt-list.php:103 inc/cpt-list.php:177
+msgid "Pager"
+msgstr "ページ送り"
+
+#: cpt-list.php:104 inc/cpt-list.php:178
+msgid "Manual AJAX"
+msgstr "手動非同期通信"
+
+#: cpt-list.php:106
+msgid "Post list text color"
+msgstr "投稿リスト配色"
+
+#: cpt-list.php:108 cpt-list.php:159 cpt-list.php:198 cpt-list.php:229
+#: cpt-list.php:260 cpt-list.php:291 cpt-list.php:330 cpt-list.php:396
+#: inc/cpt-list.php:188 inc/cpt-list.php:269 inc/cpt-list.php:326
+#: inc/cpt-list.php:368 inc/cpt-list.php:410 inc/cpt-list.php:452
+#: inc/cpt-list.php:508 inc/cpt-list.php:600
+msgid "Black"
+msgstr "Black"
+
+#: cpt-list.php:109 cpt-list.php:160 cpt-list.php:199 cpt-list.php:230
+#: cpt-list.php:261 cpt-list.php:292 cpt-list.php:331 cpt-list.php:397
+#: inc/cpt-list.php:189 inc/cpt-list.php:270 inc/cpt-list.php:327
+#: inc/cpt-list.php:369 inc/cpt-list.php:411 inc/cpt-list.php:453
+#: inc/cpt-list.php:509 inc/cpt-list.php:601
+msgid "White"
+msgstr "White"
+
+#: cpt-list.php:110 cpt-list.php:161 cpt-list.php:200 cpt-list.php:231
+#: cpt-list.php:262 cpt-list.php:293 cpt-list.php:332 cpt-list.php:398
+#: inc/cpt-list.php:190 inc/cpt-list.php:271 inc/cpt-list.php:328
+#: inc/cpt-list.php:370 inc/cpt-list.php:412 inc/cpt-list.php:454
+#: inc/cpt-list.php:510 inc/cpt-list.php:602
+msgid "Red"
+msgstr "Red"
+
+#: cpt-list.php:111 cpt-list.php:162 cpt-list.php:201 cpt-list.php:232
+#: cpt-list.php:263 cpt-list.php:294 cpt-list.php:333 cpt-list.php:399
+#: inc/cpt-list.php:191 inc/cpt-list.php:272 inc/cpt-list.php:511
+#: inc/cpt-list.php:603
+msgid "Pink"
+msgstr "Pink"
+
+#: cpt-list.php:112 cpt-list.php:163 cpt-list.php:202 cpt-list.php:233
+#: cpt-list.php:264 cpt-list.php:295 cpt-list.php:334 cpt-list.php:400
+#: inc/cpt-list.php:192 inc/cpt-list.php:273 inc/cpt-list.php:329
+#: inc/cpt-list.php:371 inc/cpt-list.php:413 inc/cpt-list.php:455
+#: inc/cpt-list.php:512 inc/cpt-list.php:604
+msgid "Purple"
+msgstr "Purple"
+
+#: cpt-list.php:113 cpt-list.php:164 cpt-list.php:203 cpt-list.php:234
+#: cpt-list.php:265 cpt-list.php:296 cpt-list.php:335 cpt-list.php:401
+#: inc/cpt-list.php:193 inc/cpt-list.php:274 inc/cpt-list.php:330
+#: inc/cpt-list.php:372 inc/cpt-list.php:414 inc/cpt-list.php:456
+#: inc/cpt-list.php:513 inc/cpt-list.php:605
+msgid "Deep Purple"
+msgstr "Deep Purple"
+
+#: cpt-list.php:114 cpt-list.php:165 cpt-list.php:204 cpt-list.php:235
+#: cpt-list.php:266 cpt-list.php:297 cpt-list.php:336 cpt-list.php:402
+#: inc/cpt-list.php:194 inc/cpt-list.php:275 inc/cpt-list.php:331
+#: inc/cpt-list.php:373 inc/cpt-list.php:415 inc/cpt-list.php:457
+#: inc/cpt-list.php:514 inc/cpt-list.php:606
+msgid "Indigo"
+msgstr "Indigo"
+
+#: cpt-list.php:115 cpt-list.php:166 cpt-list.php:205 cpt-list.php:236
+#: cpt-list.php:267 cpt-list.php:298 cpt-list.php:337 cpt-list.php:403
+#: inc/cpt-list.php:195 inc/cpt-list.php:276 inc/cpt-list.php:332
+#: inc/cpt-list.php:374 inc/cpt-list.php:416 inc/cpt-list.php:458
+#: inc/cpt-list.php:515 inc/cpt-list.php:607
+msgid "Blue"
+msgstr "Blue"
+
+#: cpt-list.php:116 cpt-list.php:167 cpt-list.php:206 cpt-list.php:237
+#: cpt-list.php:268 cpt-list.php:299 cpt-list.php:338 cpt-list.php:404
+#: inc/cpt-list.php:196 inc/cpt-list.php:277 inc/cpt-list.php:333
+#: inc/cpt-list.php:375 inc/cpt-list.php:417 inc/cpt-list.php:459
+#: inc/cpt-list.php:516 inc/cpt-list.php:608
+msgid "Light Blue"
+msgstr "Light Blue"
+
+#: cpt-list.php:117 cpt-list.php:168 cpt-list.php:207 cpt-list.php:238
+#: cpt-list.php:269 cpt-list.php:300 cpt-list.php:339 cpt-list.php:405
+#: inc/cpt-list.php:197 inc/cpt-list.php:278 inc/cpt-list.php:334
+#: inc/cpt-list.php:376 inc/cpt-list.php:418 inc/cpt-list.php:460
+#: inc/cpt-list.php:517 inc/cpt-list.php:609
+msgid "Cyan"
+msgstr "Cyan"
+
+#: cpt-list.php:118 cpt-list.php:169 cpt-list.php:208 cpt-list.php:239
+#: cpt-list.php:270 cpt-list.php:301 cpt-list.php:340 cpt-list.php:406
+#: inc/cpt-list.php:198 inc/cpt-list.php:279 inc/cpt-list.php:335
+#: inc/cpt-list.php:377 inc/cpt-list.php:419 inc/cpt-list.php:461
+#: inc/cpt-list.php:518 inc/cpt-list.php:610
+msgid "Teal"
+msgstr "Teal"
+
+#: cpt-list.php:119 cpt-list.php:170 cpt-list.php:209 cpt-list.php:240
+#: cpt-list.php:271 cpt-list.php:302 cpt-list.php:341 cpt-list.php:407
+#: inc/cpt-list.php:199 inc/cpt-list.php:280 inc/cpt-list.php:336
+#: inc/cpt-list.php:378 inc/cpt-list.php:420 inc/cpt-list.php:462
+#: inc/cpt-list.php:519 inc/cpt-list.php:611
+msgid "Green"
+msgstr "Green"
+
+#: cpt-list.php:120 cpt-list.php:171 cpt-list.php:210 cpt-list.php:241
+#: cpt-list.php:272 cpt-list.php:303 cpt-list.php:342 cpt-list.php:408
+#: inc/cpt-list.php:200 inc/cpt-list.php:281 inc/cpt-list.php:337
+#: inc/cpt-list.php:379 inc/cpt-list.php:421 inc/cpt-list.php:463
+#: inc/cpt-list.php:520 inc/cpt-list.php:612
+msgid "Light Green"
+msgstr "Light Green"
+
+#: cpt-list.php:121 cpt-list.php:172 cpt-list.php:211 cpt-list.php:242
+#: cpt-list.php:273 cpt-list.php:304 cpt-list.php:343 cpt-list.php:409
+#: inc/cpt-list.php:201 inc/cpt-list.php:282 inc/cpt-list.php:338
+#: inc/cpt-list.php:380 inc/cpt-list.php:422 inc/cpt-list.php:464
+#: inc/cpt-list.php:521 inc/cpt-list.php:613
+msgid "Lime"
+msgstr "Lime"
+
+#: cpt-list.php:122 cpt-list.php:173 cpt-list.php:212 cpt-list.php:243
+#: cpt-list.php:274 cpt-list.php:305 cpt-list.php:344 cpt-list.php:410
+#: inc/cpt-list.php:202 inc/cpt-list.php:283 inc/cpt-list.php:339
+#: inc/cpt-list.php:381 inc/cpt-list.php:423 inc/cpt-list.php:465
+#: inc/cpt-list.php:522 inc/cpt-list.php:614
+msgid "Yellow"
+msgstr "Yellow"
+
+#: cpt-list.php:123 cpt-list.php:174 cpt-list.php:213 cpt-list.php:244
+#: cpt-list.php:275 cpt-list.php:306 cpt-list.php:345 cpt-list.php:411
+#: inc/cpt-list.php:203 inc/cpt-list.php:284 inc/cpt-list.php:340
+#: inc/cpt-list.php:382 inc/cpt-list.php:424 inc/cpt-list.php:466
+#: inc/cpt-list.php:523 inc/cpt-list.php:615
+msgid "Amber"
+msgstr "Amber"
+
+#: cpt-list.php:124 cpt-list.php:175 cpt-list.php:214 cpt-list.php:245
+#: cpt-list.php:276 cpt-list.php:307 cpt-list.php:346 cpt-list.php:412
+#: inc/cpt-list.php:204 inc/cpt-list.php:285 inc/cpt-list.php:341
+#: inc/cpt-list.php:383 inc/cpt-list.php:425 inc/cpt-list.php:467
+#: inc/cpt-list.php:524 inc/cpt-list.php:616
+msgid "Orange"
+msgstr "Orange"
+
+#: cpt-list.php:125 cpt-list.php:176 cpt-list.php:215 cpt-list.php:246
+#: cpt-list.php:277 cpt-list.php:308 cpt-list.php:347 cpt-list.php:413
+#: inc/cpt-list.php:205 inc/cpt-list.php:286 inc/cpt-list.php:342
+#: inc/cpt-list.php:384 inc/cpt-list.php:426 inc/cpt-list.php:468
+#: inc/cpt-list.php:525 inc/cpt-list.php:617
+msgid "Deep Orange"
+msgstr "Deep Orange"
+
+#: cpt-list.php:126 cpt-list.php:177 cpt-list.php:216 cpt-list.php:247
+#: cpt-list.php:278 cpt-list.php:309 cpt-list.php:348 cpt-list.php:414
+#: inc/cpt-list.php:206 inc/cpt-list.php:287 inc/cpt-list.php:343
+#: inc/cpt-list.php:385 inc/cpt-list.php:427 inc/cpt-list.php:469
+#: inc/cpt-list.php:526 inc/cpt-list.php:618
+msgid "Brown"
+msgstr "Brown"
+
+#: cpt-list.php:127 cpt-list.php:178 cpt-list.php:217 cpt-list.php:248
+#: cpt-list.php:279 cpt-list.php:310 cpt-list.php:349 cpt-list.php:415
+#: inc/cpt-list.php:207 inc/cpt-list.php:288 inc/cpt-list.php:344
+#: inc/cpt-list.php:386 inc/cpt-list.php:428 inc/cpt-list.php:470
+#: inc/cpt-list.php:527 inc/cpt-list.php:619
+msgid "Grey"
+msgstr "Grey"
+
+#: cpt-list.php:128 cpt-list.php:179 cpt-list.php:218 cpt-list.php:249
+#: cpt-list.php:280 cpt-list.php:311 cpt-list.php:350 cpt-list.php:416
+#: inc/cpt-list.php:208 inc/cpt-list.php:289 inc/cpt-list.php:345
+#: inc/cpt-list.php:387 inc/cpt-list.php:429 inc/cpt-list.php:471
+#: inc/cpt-list.php:528 inc/cpt-list.php:620
+msgid "Blue Grey"
+msgstr "Blue Grey"
+
+#: cpt-list.php:130
+msgid "Post list auto padding setting"
+msgstr "投稿リストの自動間隔設定"
+
+#: cpt-list.php:132 cpt-list.php:382 inc/cpt-list.php:218 inc/cpt-list.php:574
+msgid "On"
+msgstr "オン"
+
+#: cpt-list.php:133 cpt-list.php:383 inc/cpt-list.php:219 inc/cpt-list.php:575
+msgid "Off"
+msgstr "オフ"
+
+#: cpt-list.php:139 inc/cpt-list.php:225
+msgid "Title Settings"
+msgstr "タイトル設定"
+
+#: cpt-list.php:141
+msgid "Title display"
+msgstr "タイトル表示"
+
+#: cpt-list.php:143 cpt-list.php:192 cpt-list.php:223 cpt-list.php:254
+#: cpt-list.php:285 cpt-list.php:322 inc/cpt-list.php:234 inc/cpt-list.php:314
+#: inc/cpt-list.php:356 inc/cpt-list.php:398 inc/cpt-list.php:440
+#: inc/cpt-list.php:487
+msgid "Show"
+msgstr "表示"
+
+#: cpt-list.php:144 cpt-list.php:193 cpt-list.php:224 cpt-list.php:255
+#: cpt-list.php:286 cpt-list.php:323 inc/cpt-list.php:235 inc/cpt-list.php:315
+#: inc/cpt-list.php:357 inc/cpt-list.php:399 inc/cpt-list.php:441
+#: inc/cpt-list.php:488
+msgid "Hide"
+msgstr "非表示"
+
+#: cpt-list.php:146
+msgid "Title element type"
+msgstr "タイトル要素種類"
+
+#: cpt-list.php:148 inc/cpt-list.php:245
+msgid "Heading1(h1)"
+msgstr "見出し１(h1)"
+
+#: cpt-list.php:149 inc/cpt-list.php:246
+msgid "Heading2(h2)"
+msgstr "見出し２(h2)"
+
+#: cpt-list.php:150 inc/cpt-list.php:247
+msgid "Heading3(h3)"
+msgstr "見出し３(h3)"
+
+#: cpt-list.php:151 inc/cpt-list.php:248
+msgid "Heading4(h4)"
+msgstr "見出し４(h4)"
+
+#: cpt-list.php:152 inc/cpt-list.php:249
+msgid "Heading5(h5)"
+msgstr "見出し５(h5)"
+
+#: cpt-list.php:154
+msgid "Title font size"
+msgstr "タイトルフォントサイズ"
+
+#: cpt-list.php:156
+msgid "Title color"
+msgstr "タイトル配色"
+
+#: cpt-list.php:181 inc/cpt-list.php:292
+msgid "* If you want to change only the color of the title, please set."
+msgstr "※タイトルの配色を変更したい場合、設定して下さい。"
+
+#: cpt-list.php:186 inc/cpt-list.php:296
+msgid "Meta Info Settings"
+msgstr "メタ情報設定"
+
+#: cpt-list.php:188
+msgid "Meta font size"
+msgstr "メタ情報フォントサイズ"
+
+#: cpt-list.php:190
+msgid "Date info display"
+msgstr "日付情報表示"
+
+#: cpt-list.php:195
+msgid "Date meta info color"
+msgstr "日付情報配色"
+
+#: cpt-list.php:220 inc/cpt-list.php:348
+msgid ""
+"* If you want to change only the color of the date meta info, please set."
+msgstr "※日付情報の配色を変更したい場合、設定して下さい。"
+
+#: cpt-list.php:221
+msgid "Author info display"
+msgstr "著者情報表示"
+
+#: cpt-list.php:226
+msgid "Author meta info color"
+msgstr "著者情報配色"
+
+#: cpt-list.php:251 inc/cpt-list.php:390
+msgid ""
+"* If you want to change only the color of the author meta info, please set."
+msgstr "※著者情報の配色を変更したい場合、設定して下さい。"
+
+#: cpt-list.php:252
+msgid "Category info display"
+msgstr "カテゴリ情報表示"
+
+#: cpt-list.php:257
+msgid "Category meta info color"
+msgstr "カテゴリ情報配色"
+
+#: cpt-list.php:282 inc/cpt-list.php:432
+msgid ""
+"* If you want to change only the color of the category meta info, please set."
+msgstr "※カテゴリ情報の配色を変更したい場合、設定して下さい。"
+
+#: cpt-list.php:283
+msgid "Tag info display"
+msgstr "タグ情報表示"
+
+#: cpt-list.php:288
+msgid "Tag meta info color"
+msgstr "タグ情報配色"
+
+#: cpt-list.php:313 inc/cpt-list.php:474
+msgid ""
+"* If you want to change only the color of the tag meta info, please set."
+msgstr "※タグ情報の配色を変更したい場合、設定して下さい。"
+
+#: cpt-list.php:318 inc/cpt-list.php:478
+msgid "Excerpt Settings"
+msgstr "本文設定"
+
+#: cpt-list.php:320
+msgid "Excerpt display"
+msgstr "本文表示"
+
+#: cpt-list.php:325
+msgid "Excerpt font size"
+msgstr "本文フォントサイズ"
+
+#: cpt-list.php:327
+msgid "Excerpt font color"
+msgstr "本文配色"
+
+#: cpt-list.php:352 inc/cpt-list.php:531
+msgid "* If you want to change only the color of the excerpt, please set."
+msgstr "※本文の配色を変更したい場合、設定して下さい。"
+
+#: cpt-list.php:357 inc/cpt-list.php:535
+msgid "Thumbnail Settings"
+msgstr "サムネイル設定"
+
+#: cpt-list.php:359
+msgid "Use substitute thumbnail"
+msgstr "代替画像利用"
+
+#: cpt-list.php:361 inc/cpt-list.php:544
+msgid "Yes"
+msgstr "はい"
+
+#: cpt-list.php:362 inc/cpt-list.php:545
+msgid "No"
+msgstr "いいえ"
+
+#: cpt-list.php:364 inc/cpt-list.php:548
+msgid "* If the thumbnail is not set, use substitute image?"
+msgstr "※サムネイルが設定されていない場合、代替画像を使いますか？"
+
+#: cpt-list.php:365
+msgid "Substitute thumbnail image"
+msgstr "代替サムネイル画像"
+
+#: cpt-list.php:377 inc/cpt-list.php:564
+msgid "Select"
+msgstr "選択"
+
+#: cpt-list.php:378 inc/cpt-list.php:565
+msgid "Clear"
+msgstr "クリア"
+
+#: cpt-list.php:380
+msgid "Thumbnail anchor"
+msgstr "サムネイルリンク"
+
+#: cpt-list.php:385 inc/cpt-list.php:578
+msgid "* If Post list style is Full Width or Grid, will be applied."
+msgstr "※投稿リストスタイルが全幅またはグリッドの場合、適用されます。"
+
+#: cpt-list.php:386
+msgid "Thumbnail height"
+msgstr "サムネイル高さ"
+
+#: cpt-list.php:388 inc/cpt-list.php:586
+msgid "Small"
+msgstr "小"
+
+#: cpt-list.php:389 inc/cpt-list.php:587
+msgid "Medium"
+msgstr "中"
+
+#: cpt-list.php:390 inc/cpt-list.php:588
+msgid "Large"
+msgstr "大"
+
+#: cpt-list.php:392 inc/cpt-list.php:591
+msgid "* If Post list style is Grid, will be applied."
+msgstr "※投稿リストスタイルがグリッドの場合、適用されます。"
+
+#: cpt-list.php:393
+msgid "Thumbnail cover color"
+msgstr "サムネイルのカバー配色"
+
+#: cpt-list.php:423
+msgid "CPT List Shortcode Template"
+msgstr "CPT Listショートコードテンプレート"
+
+#: cpt-list.php:426
+msgid "Shortcode Parameters"
+msgstr "ショートコードパラメータ"
+
+#: cpt-list.php:427
+msgid "Check here."
+msgstr "こちらをご確認ください。"
+
+#: cpt-list.php:432
+msgid "Save"
+msgstr "保存"
+
+#: inc/cpt-list.php:7
+msgid "Custom post types list view widget."
+msgstr "カスタム投稿タイプ表示ウィジェット"
+
+#: inc/cpt-list.php:81
+msgid "Post type slug :"
+msgstr "投稿タイプスラッグ："
+
+#: inc/cpt-list.php:91
+msgid "Taxonomy slug :"
+msgstr "タクソノミースラッグ："
+
+#: inc/cpt-list.php:101
+msgid "Terms (Comma separated) :"
+msgstr "ターム（カンマ区切り）："
+
+#: inc/cpt-list.php:109
+msgid "If you narrow the output result, please set terms."
+msgstr "表示する投稿を絞り込みたい場合、タームを設定して下さい。"
+
+#: inc/cpt-list.php:112
+msgid "Order by :"
+msgstr "表示順："
+
+#: inc/cpt-list.php:117
+msgid "Desc"
+msgstr "降順"
+
+#: inc/cpt-list.php:118
+msgid "Asc"
+msgstr "昇順"
+
+#: inc/cpt-list.php:123
+msgid "Order :"
+msgstr "表示順キー："
+
+#: inc/cpt-list.php:128
+msgid "Date"
+msgstr "日付"
+
+#: inc/cpt-list.php:129
+msgid "Modified"
+msgstr "編集日"
+
+#: inc/cpt-list.php:130
+msgid "Comment count"
+msgstr "コメント数"
+
+#: inc/cpt-list.php:131
+msgid "Title"
+msgstr "タイトル"
+
+#: inc/cpt-list.php:132
+msgid "Author"
+msgstr "著者"
+
+#: inc/cpt-list.php:133
+msgid "ID"
+msgstr "投稿ID"
+
+#: inc/cpt-list.php:137
+msgid "Override Basic Settings?"
+msgstr "標準設定を上書きしますか？"
+
+#: inc/cpt-list.php:138
+msgid "Changing the basic setting doesn't change the value."
+msgstr "ここで設定を変更しても標準設定は変更されません。"
+
+#: inc/cpt-list.php:144
+msgid "Post list style :"
+msgstr "投稿リストスタイル："
+
+#: inc/cpt-list.php:162
+msgid "Article number of per page :"
+msgstr "1 ページあたりの記事数："
+
+#: inc/cpt-list.php:171
+msgid "Post list pagination :"
+msgstr "投稿リストのページネーション："
+
+#: inc/cpt-list.php:183
+msgid "Post list text color :"
+msgstr "投稿リスト配色："
+
+#: inc/cpt-list.php:213
+msgid "Post list auto padding setting :"
+msgstr "投稿リストの自動間隔設定："
+
+#: inc/cpt-list.php:229
+msgid "Title display :"
+msgstr "タイトル表示："
+
+#: inc/cpt-list.php:240
+msgid "Title element type :"
+msgstr "タイトル要素種類："
+
+#: inc/cpt-list.php:254
+msgid "Title font size :"
+msgstr "タイトルフォントサイズ："
+
+#: inc/cpt-list.php:263
+msgid "Title color :"
+msgstr "タイトル配色："
+
+#: inc/cpt-list.php:300
+msgid "Meta font size :"
+msgstr "メタ情報フォントサイズ："
+
+#: inc/cpt-list.php:309
+msgid "Date info display :"
+msgstr "日付情報表示："
+
+#: inc/cpt-list.php:320
+msgid "Date meta info color :"
+msgstr "日付情報配色："
+
+#: inc/cpt-list.php:351
+msgid "Author info display :"
+msgstr "著者情報表示："
+
+#: inc/cpt-list.php:362
+msgid "Author meta info color :"
+msgstr "著者情報配色："
+
+#: inc/cpt-list.php:393
+msgid "Category info display :"
+msgstr "カテゴリ情報表示："
+
+#: inc/cpt-list.php:404
+msgid "Category meta info color :"
+msgstr "カテゴリ情報配色："
+
+#: inc/cpt-list.php:435
+msgid "Tag info display :"
+msgstr "タグ情報表示："
+
+#: inc/cpt-list.php:446
+msgid "Tag meta info color :"
+msgstr "タグ情報配色："
+
+#: inc/cpt-list.php:482
+msgid "Excerpt display :"
+msgstr "本文表示："
+
+#: inc/cpt-list.php:493
+msgid "Excerpt font size :"
+msgstr "本文フォントサイズ："
+
+#: inc/cpt-list.php:502
+msgid "Excerpt font color :"
+msgstr "本文配色："
+
+#: inc/cpt-list.php:539
+msgid "Use substitute thumbnail :"
+msgstr "代替画像利用："
+
+#: inc/cpt-list.php:551
+msgid "Substitute thumbnail image :"
+msgstr "代替サムネイル画像："
+
+#: inc/cpt-list.php:569
+msgid "Thumbnail anchor :"
+msgstr "サムネイルリンク："
+
+#: inc/cpt-list.php:581
+msgid "Thumbnail height :"
+msgstr "サムネイル高さ："
+
+#: inc/cpt-list.php:594
+msgid "Thumbnail cover color :"
+msgstr "サムネイルのカバー配色："
+
+#: inc/cpt-list.php:1059
+msgid "More Load"
+msgstr "更に読み込む"
+
+#: inc/cpt-list.php:1171
+msgid "[errCode:100] Parameter is abnormal."
+msgstr "[errCode:100] パラメータが異常です。"
+
+#: inc/cpt-list.php:1179
+msgid "[errCode:200] Parameter is abnormal."
+msgstr "[errCode:200] パラメータが異常です。"
+
+#: inc/cpt-list.php:1196
+msgid "loaded all."
+msgstr "全て読み込みました"
+
+#. Plugin URI of the plugin/theme
+msgid "http://beek.jp/cpt-list/"
+msgstr "http://beek.jp/cpt-list/"
+
+#. Description of the plugin/theme
+msgid "Will add the custom post type list view shortcode and widget."
+msgstr ""
+"カスタム投稿タイプのリスト表示を行うショートコードとウィジェットを追加しま"
+"す。"
+
+#. Author of the plugin/theme
+msgid "Satoshi Yoshida"
+msgstr "Satoshi Yoshida"
+
+#. Author URI of the plugin/theme
+msgid "http://beek.jp"
+msgstr "http://beek.jp"
+
+#~ msgid "Auto AJAX"
+#~ msgstr "自動非同期通信"
